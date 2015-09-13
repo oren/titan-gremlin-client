@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker exec -it titangremlinclient_titan_1 bin/gremlin.sh
+

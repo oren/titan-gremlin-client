@@ -1,0 +1,25 @@
+{
+  "name": "titan-gremlin-client",
+  "version": "1.0.0",
+  "description": "## Run Titan",
+  "main": "insert.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oren/titan-gremlin-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oren/titan-gremlin-client/issues"
+  },
+  "homepage": "https://github.com/oren/titan-gremlin-client#readme",
+  "dependencies": {
+    "gremlin-client": "^1.0.0"
+  }
+}
