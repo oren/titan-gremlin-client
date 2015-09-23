@@ -1,13 +1,14 @@
 # titan-gremlin-client
 
+Run Titan in Docker container and try to access it via node.js using websockets. It reuqire Docker and docker-compose.
+I am getting a serialization error. please help!
+
 ## Run Titan
 
 ```
 git clone https://github.com/oren/titan-gremlin-client.git
 cd titan
 npm install
-vim node_modules/gremlin-client/src/executehandler.js
-modify line 4 to: `isArray: require('lodash.isarray')` (lowercase a)
 docker-compose up
 ```
 
